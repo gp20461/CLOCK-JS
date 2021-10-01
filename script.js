@@ -36,27 +36,27 @@ function morning(){
   mssgUpdate.innerText ="Wake UP!";
   wishHeadingBox.style.display="block";
   wishHeading.innerText ="Good Morning!!";
-  themeIMG.style.backgroundImage = "url('./Images/Sunny day-bro.svg')";
+  themeIMG.style.backgroundImage = "url('./Sunny day-bro.svg')";
 }
 
 function noonAfter(){
   mssgUpdate.innerText ="Have some Food!!";
   wishHeadingBox.style.display="block";
       wishHeading.innerText ="Good Afternoon!!";
-      themeIMG.style.backgroundImage = "url('./Images/Pizza sharing-cuate.svg')";
+      themeIMG.style.backgroundImage = "url('./Pizza sharing-cuate.svg')";
 }
 
 function nightFun(){
 mssgUpdate.innerText ="Take A Nap or just sleep bhai!!";
 wishHeadingBox.style.display="block";
 wishHeading.innerText ="Good Night!!";
-themeIMG.style.backgroundImage = "url('./Images/Sleep analysis-cuate.svg')";
+themeIMG.style.backgroundImage = "url('./Sleep analysis-cuate.svg')";
 }
 function chillKaro(){
   mssgUpdate.innerText ="Chill Karo";
     wishHeading.innerText ="";
     wishHeadingBox.style.display="none";
-    themeIMG.style.backgroundImage = "url('./Images/chill.svg')";
+    themeIMG.style.backgroundImage = "url('.chill.svg')";
   }
   chillKaro();
 
@@ -68,7 +68,7 @@ partyBtn.addEventListener("click", ()=>{
       partyBtn.innerHTML =" End Party";
       mssgUpdate.innerText ="It's Party Time";
       wishHeading.innerText ="Party Time";
-      themeIMG.style.backgroundImage = "url(./Images/party2.svg)";
+      themeIMG.style.backgroundImage = "url(./party2.svg)";
 });
 
 partyBtn.addEventListener("dblclick", ()=>{
@@ -93,7 +93,7 @@ morningSlot.addEventListener("change", function (){
       morning();}
 
    else{
-    mssgUpdate.innerText ="Jo Karna Hai Karo";
+    mssgUpdate.innerText ="Chill kro";
     wishHeadingBox.style.display="none";
 
 
@@ -111,7 +111,7 @@ noonSlot.addEventListener("change", function (){
    noonAfter();}
 
  else{
-  mssgUpdate.innerText ="Jo Karna Hai Karo";
+  mssgUpdate.innerText ="Chill kro";
   wishHeading.innerText ="";
   wishHeadingBox.style.display="none";
   themeIMG.style.backgroundImage = "url('./chill.svg')";
@@ -127,7 +127,7 @@ nightSlot.addEventListener("change", function (){
     nightFun();}
 
  else{
-  mssgUpdate.innerText ="Jo Karna Hai Karo";
+  mssgUpdate.innerText ="Chill kro";
   wishHeading.innerText ="";
   wishHeadingBox.style.display="none";
   themeIMG.style.backgroundImage = "url('./chill.svg')";
